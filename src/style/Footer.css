@@ -1,0 +1,21 @@
+.footer-container {
+    height          : 10vh;
+    width           : auto;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    flex-direction  : row;
+    background-color: rgb(15, 53, 30);
+}
+
+.footer--logo {
+    height       : 5vh;
+    width        : auto;
+    margin       : 0 5vh;
+    border-radius: 50%;
+}
+
+.footer--logo:hover {
+    cursor    : pointer;
+    box-shadow: 0 0 10px #ffffff;
+}
