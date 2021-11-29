@@ -1,7 +1,7 @@
 .home-container {
     height          : 80vh;
     width           : auto;
-    background-color: rgb(235, 230, 230);
+    background-color: rgb(255, 255, 255);
     display         : flex;
     flex-direction  : row;
     align-items     : center;
@@ -17,33 +17,113 @@
 }
 
 .catalogo-container {
-    width          : 60vw;
-    height         : 80vh;
-    display        : flex;
-    flex-direction : column;
+    width         : 60vw;
+    height        : 80vh;
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    overflow-y    : scroll;
+}
+
+.mobileLottieContainer{
+display: none;
+}
+
+.catalogowpp,
+.catalogoNavidad,
+.catalogoDamas13500,
+.catalogoDamas16500,
+.catalogoDamas14500,
+.catalogoDamas19000,
+.catalogoCaballero19000,
+.catalogoNinos {
+    height         : 10vh;
+    width          : 30vw;
+    border-radius  : 10px;
+    box-shadow     : 0 0 10px #0707071a;
+    border         : rgb(0, 0, 0) 1.5px solid;
     align-items    : center;
-    justify-content: space-around;
+    display        : flex;
+    justify-content: center;
+    padding        : 0.5rem;
+    margin         : 2vh 0;
 }
 
-.catalogo {
-    height          : 10vh;
-    width           : 50vw;
-    background-color: whitesmoke;
-    border-radius   : 10px;
-    box-shadow      : 0 0 10px #0707073a;
-    border          : rgb(1, 107, 10) 2px solid;
-    align-items     : center;
-    display         : flex;
-    justify-content : center;
+.catalogowpp {
+    background-color: var(--catalogo-wpp);
 }
 
-.catalogo:hover {
+.catalogoNavidad {
+    background-color: var(--catalogo-navidad);
+}
+
+.catalogoDamas13500 {
+    background-color: var(--catalogo-damas-13500);
+}
+
+.catalogoDamas16500 {
+    background-color: var(--catalogo-damas-16500);
+}
+
+.catalogoDamas14500 {
+    background-color: var(--catalogo-damas-14500);
+}
+
+.catalogoDamas19000 {
+    background-color: var(--catalogo-damas-19000);
+}
+
+.catalogoCaballero19000 {
+    background-color: var(--catalogo-caballero-19000);
+}
+
+.catalogoNinos {
+    background-color: var(--catalogo-ninos);
+}
+
+.catalogowpp,
+.catalogoNavidad,
+.catalogoDamas13500,
+.catalogoDamas16500,
+.catalogoDamas14500,
+.catalogoDamas19000,
+.catalogoCaballero19000,
+.catalogoNinos:hover {
     cursor    : pointer;
-    box-shadow: 0 0 10px #c21515;
+    box-shadow: 0 0 10px #000000;
 }
 
-.catalogo>a {
-    color          : black;
-    font-size      : large;
-    text-decoration: none;
+.catalogo-a {
+    color              : rgb(0, 0, 0);
+    font-size          : large;
+    text-decoration    : none;
+    font-weight        : bolder;
+    text-align         : center;
+    -webkit-text-stroke: 0.8px black;
+}
+
+@media (max-width: 800px) {
+    .home-side {
+        display: none;
+    }
+
+    .catalogo-container {
+
+        width: 80vw;
+    }
+
+    .catalogowpp,
+    .catalogoNavidad,
+    .catalogoDamas13500,
+    .catalogoDamas16500,
+    .catalogoDamas14500,
+    .catalogoDamas19000,
+    .catalogoCaballero19000,
+    .catalogoNinos {
+        width: 90%;
+    }
+
+    .mobileLottieContainer{
+        display: block;
+    }
 }

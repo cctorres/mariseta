@@ -3,21 +3,24 @@
     flex-direction  : row;
     height          : 10vh;
     width           : auto;
-    background-color: rgb(53, 15, 15);
+    background-color: var(--main-color-lg)
 }
 
 .header--logo {
-    height       : 8vh;
-    width        : auto;
-    margin-right : 2vw;
-    margin-left  : 2vw;
-    margin-top   : auto;
-    margin-bottom: auto;
+    height          : 8vh;
+    width           : 8vh;
+    margin-right    : 2vw;
+    margin-left     : 2vw;
+    padding         : 0.1rem;
+    margin-top      : auto;
+    margin-bottom   : auto;
+    background-color: white;
+    border-radius   : 50%;
 }
 
-.header-container> p {
-    color        : white;
-    font-size    : large;
+.header-container>p {
+    color        : rgb(0, 0, 0);
+    font-size    : 2.5rem;
     margin-top   : auto;
     margin-bottom: auto;
 }
