@@ -16,13 +16,13 @@ code {
   --main-color-lg           : #e1cec0;
   --white-color-lg          : #eeeeee;
   --catalogo-wpp: rgb(1, 136, 8);
-  --catalogo-navidad        : #ab4842;
-  --catalogo-damas-13500    : #e1cbbe;
-  --catalogo-damas-16500    : #c8c5e2;
-  --catalogo-damas-14500    : #f9dcd4;
-  --catalogo-damas-19000    : #ffcc29;
-  --catalogo-caballero-19000: #57a695;
-  --catalogo-ninos          : #bb8900;
+  --catalogo-navidad        : #000000;
+  --catalogo-damas-13500    : #000000;
+  --catalogo-damas-16500    : #000000;
+  --catalogo-damas-14500    : #000000;
+  --catalogo-damas-19000    : #000000;
+  --catalogo-caballero-19000: #000000;
+  --catalogo-ninos          : #000000;
 }
 
 h1,

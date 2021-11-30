@@ -94,12 +94,12 @@ display: none;
 }
 
 .catalogo-a {
-    color              : rgb(0, 0, 0);
+    color              : rgb(250, 250, 250);
     font-size          : large;
     text-decoration    : none;
     font-weight        : bolder;
     text-align         : center;
-    -webkit-text-stroke: 0.8px black;
+    text-transform: uppercase;
 }
 
 @media (max-width: 800px) {
