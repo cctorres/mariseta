@@ -39,17 +39,24 @@
 @media (max-width: 800px) {
     .footer-container {
         flex-direction: column;
-        overflow-y    : scroll;
-        height        : 10vh;
+        justify-content: start;
+        text-align: center;
+        overflow-y: scroll;
     }
 
     .texto-footer-container {
-        width  : 100vw;
-        display: none;
+        width: 100vw;
+        font-size: small;    
+        background-color: #422f24;;
+    }
+
+    .texto-footer-container > p {
+        margin: 0.2rem;
+        color: blanchedalmond;
     }
 
     .logo-footer-container {
         width: 100vw;
+        
     }
-
 }
