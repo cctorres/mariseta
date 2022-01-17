@@ -5,11 +5,9 @@ import wppLogo from '../assets/wpp.svg'
 const Home = () => {
 
   const wpp = "Presiona aquí para realizar su pedido"
-  const navidad = "Catalogo de Navidad";
   const catalogoDamasBasica = "Catalogo de Dama $15500";
   const catalogoDamasAlta = "Catalogo de Dama $18500";
   const catalogoDamasRibete = "Catalogo de Dama Ribetes $16500";
-  const catalogoDamasMangas = "Catalogo de Dama Manga Doblada $21000";
   const catalogoCaballero = "Catalogo de Caballero $21000";
   const catalogoNinos = "Catalogo Infantil $18500"
 
@@ -24,9 +22,6 @@ const Home = () => {
             </div>
           </a>
         </div>
-        <div className="catalogoNavidad">
-          <a href="https://drive.google.com/file/d/1afA650qv4G2Zt2QlMcHYcqhtGuSJZ5pZ/view" target="_blank" rel="noopener noreferrer" className="catalogo-a">{navidad}</a>
-        </div>
         <div className="catalogoDamasBasica">
           <a href="https://drive.google.com/file/d/1rW6mgKoCcZwoIonRt_QM6rsLT6OAagnl/view" target="_blank" rel="noopener noreferrer" className="catalogo-a">{catalogoDamasBasica}</a>
         </div>
@@ -35,9 +30,6 @@ const Home = () => {
         </div>
         <div className="catalogoDamasRibete">
           <a href="https://drive.google.com/file/d/1K7lcADhMlmQ9MpRkGUDMkQ04NhDjtvnM/view" target="_blank" rel="noopener noreferrer" className="catalogo-a">{catalogoDamasRibete}</a>
-        </div>
-        <div className="catalogoDamasMangas">
-          <a href="https://drive.google.com/file/d/1XsliVrT79VCGbx55dOCQCUA8CDvOt99a/view" target="_blank" rel="noopener noreferrer" className="catalogo-a">{catalogoDamasMangas}</a>
         </div>
         <div className="catalogoCaballero">
           <a href="https://drive.google.com/file/d/1b8vvHFnPSTrISRbObD-jpjWAW9ohSwLr/view" target="_blank" rel="noopener noreferrer" className="catalogo-a">{catalogoCaballero}</a>
