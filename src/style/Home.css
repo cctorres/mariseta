@@ -25,6 +25,7 @@
 .catalogoNavidad,
 .catalogoDamasBasica,
 .catalogoDamasAlta,
+.catalogoTops,
 .catalogoDamasRibete,
 .catalogoDamasMangas,
 .catalogoCaballero,
@@ -80,10 +81,15 @@
     background-color: var(--catalogo-ninos);
 }
 
+.catalogoTops{
+    background-color: var(--catalogo-caballero-19000);
+}
+
 .catalogowpp,
 .catalogoNavidad,
 .catalogoDamasBasica,
 .catalogoDamasAlta,
+.catalogoTops,
 .catalogoDamasRibete,
 .catalogoDamasMangas,
 .catalogoCaballero,
@@ -121,6 +127,7 @@
     .catalogoNavidad,
     .catalogoDamasBasica,
     .catalogoDamasAlta,
+    .catalogoTops,
     .catalogoDamasRibete,
     .catalogoDamasMangas,
     .catalogoCaballero,

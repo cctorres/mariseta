@@ -10,6 +10,7 @@ const Home = () => {
   const catalogoDamasRibete = "Catalogo de Dama Ribetes $16500";
   const catalogoCaballero = "Catalogo de Caballero $21000";
   const catalogoNinos = "Catalogo Infantil $18500"
+  const catalogoTops = "Catalogo de Tops $12000"
 
   return (
     <div className="home-container">
@@ -27,6 +28,9 @@ const Home = () => {
         </div>
         <div className="catalogoDamasAlta">
           <a href="https://drive.google.com/file/d/1L_Odfa-1KjzLOq4ini0B3NTuzMg5coQQ/view" target="_blank" rel="noopener noreferrer" className="catalogo-a">{catalogoDamasAlta}</a>
+        </div>
+        <div className="catalogoTops">
+          <a href="https://drive.google.com/file/d/1hOj76odhjIWmhcEnwsOp9wL3DDwEimCc/view" target="_blank" rel="noopener noreferrer" className="catalogo-a">{catalogoTops}</a>
         </div>
         <div className="catalogoDamasRibete">
           <a href="https://drive.google.com/file/d/1K7lcADhMlmQ9MpRkGUDMkQ04NhDjtvnM/view" target="_blank" rel="noopener noreferrer" className="catalogo-a">{catalogoDamasRibete}</a>
