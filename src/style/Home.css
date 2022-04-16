@@ -21,97 +21,6 @@
     padding: 0.5rem 0;
 }
 
-.catalogowpp,
-.catalogoNavidad,
-.catalogoDamasBasica,
-.catalogoDamasAlta,
-.catalogoTops,
-.catalogoDamasRibete,
-.catalogoDamasMangas,
-.catalogoCaballero,
-.catalogoNinos {
-    height         : 10vh;
-    width          : 30vw;
-    border-radius  : 10px;
-    box-shadow     : 0 0 10px #0707071a;
-    border         : rgb(0, 0, 0) 1.5px solid;
-    align-items    : center;
-    display        : flex;
-    justify-content: center;
-    padding        : 0.5rem;
-    margin         : 2vh 0;
-}
-
-.catalogowpp {
-    background-color: var(--catalogo-wpp);
-}
-
-.catalogo-wpp {
-    display        : flex;
-    flex-direction : row;
-    align-items    : center;
-    justify-content: center;
-}
-
-.catalogoNavidad {
-    background-color: var(--catalogo-navidad);
-}
-
-.catalogoDamasBasica {
-    background-color: var(--catalogo-damas-13500);
-}
-
-.catalogoDamasAlta {
-    background-color: var(--catalogo-damas-16500);
-}
-
-.catalogoDamasRibete {
-    background-color: var(--catalogo-damas-14500);
-}
-
-.catalogoDamasMangas {
-    background-color: var(--catalogo-damas-19000);
-}
-
-.catalogoCaballero {
-    background-color: var(--catalogo-caballero-19000);
-}
-
-.catalogoNinos {
-    background-color: var(--catalogo-ninos);
-}
-
-.catalogoTops{
-    background-color: var(--catalogo-caballero-19000);
-}
-
-.catalogowpp,
-.catalogoNavidad,
-.catalogoDamasBasica,
-.catalogoDamasAlta,
-.catalogoTops,
-.catalogoDamasRibete,
-.catalogoDamasMangas,
-.catalogoCaballero,
-.catalogoNinos:hover {
-    cursor    : pointer;
-    box-shadow: 0 0 10px #000000;
-}
-
-.catalogo-a {
-    color          : rgb(250, 250, 250);
-    font-size      : large;
-    text-decoration: none;
-    font-weight    : bolder;
-    text-align     : center;
-    text-transform : uppercase;
-}
-
-.wpp-logo {
-    height: 3rem;
-    width : 3rem;
-}
-
 @media (max-width: 800px) {
 
     .catalogo-container {
@@ -121,18 +30,6 @@
     .home-container {
         background-image: url("../assets/bgMarisetaPortrait.png");
         background-size: cover;
-    }
-
-    .catalogowpp,
-    .catalogoNavidad,
-    .catalogoDamasBasica,
-    .catalogoDamasAlta,
-    .catalogoTops,
-    .catalogoDamasRibete,
-    .catalogoDamasMangas,
-    .catalogoCaballero,
-    .catalogoNinos {
-        width: 90%;
     }
 }
 
