@@ -1,3 +1,3 @@
-# React App - MAriseta Web Page
+# React App - Mariseta Web Page
 
 https://mariseta.web.app/
