@@ -11,8 +11,6 @@
     margin         : 2vh 0;
 }
 
-
-
 .catalogowpp {
     background-color: var(--catalogo-wpp);
 }
@@ -41,6 +39,7 @@
 .wpp-logo {
     height: 3rem;
     width : 3rem;
+    margin-left: 1vw;
 }
 
 @media (max-width: 800px) {
