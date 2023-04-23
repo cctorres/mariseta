@@ -1,0 +1,13 @@
+/* Botones */
+button {
+  color: white;
+  background-color: black;
+  border: 1px solid gray;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+/* Título */
+h2 {
+  font-weight: bold;
+}
