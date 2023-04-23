@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
+import jsPDF from "jspdf";
 import "../style/Counter.css";
+
 
 const App = () => {
     const [selections, setSelections] = useState(
@@ -35,6 +37,29 @@ const App = () => {
         document.getElementById("colors-input").value = colors;
         document.getElementById("sizes-input").value = sizes;
     }, [genders, colors, sizes, counters, selections]);
+
+    const handleExportPDF = () => {
+        // Crea un nuevo objeto jsPDF
+        const doc = new jsPDF();
+
+        // Agrega el título del documento
+        const currentDate = new Date().toISOString();
+        doc.text(currentDate, 10, 10);
+        doc.text("Suma de camisetas", 10, 20);
+        
+
+        // Agrega cada selección y su cantidad al documento
+        let y = 30;
+        selections.forEach((selection) => {
+            const count = counters[`${selection.gender}-${selection.color}-${selection.size}`];
+            doc.text(`${selection.gender} ${selection.color} ${selection.size}`+": "+ `${count}`, 10, y);
+            y += 10;
+        });
+
+        // Descarga el archivo PDF
+        doc.save("suma-de-camisetas-"+currentDate+".pdf");
+    };
+
 
 
     const handleUpdate = () => {
@@ -118,6 +143,8 @@ const App = () => {
                     </div>
                     <button onClick={handleUpdate}>Actualizar Textos</button>
                     <button onClick={handleClearStorage}>Nuevo Contador</button>
+                    <button onClick={handleExportPDF}>Exportar a PDF</button>
+
 
                     {genders.split(" ").map((gender) =>
                         colors.split(" ").map((color) => (
